@@ -23,9 +23,8 @@ A simple script for allocating projects to groups of students based on entered p
 Valid solutions are ones where all groups are allocated a project with no duplicates (i.e. no projects are allocated more than once).
 
 # Important Parameters
-numprojects = Total number of projects available
-numgroups = Total number of groups needing projects
-numprefs = Number of preferences expressed by each group
-
-testiterations = Maximum number of iterations before each method should stop and present the best solution found so far
-minimabreak = When the hill climbing and genetic algorithm approaches should stop if they are not making much progress (i.e. they are already in a minima and the solution isn't likely to get much better). Expressed as a percentage of testiterations, so a larger minimabreak means that the algorithms should try for longer.
+*numprojects = Total number of projects available
+*numgroups = Total number of groups needing projects
+*numprefs = Number of preferences expressed by each group
+*testiterations = Maximum number of iterations before each method should stop and present the best solution found so far
+*minimabreak = When the hill climbing and genetic algorithm approaches should stop if they are not making much progress (i.e. they are already in a minima and the solution isn't likely to get much better). Expressed as a percentage of testiterations, so a larger minimabreak means that the algorithms should try for longer.
