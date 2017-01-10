@@ -20,7 +20,7 @@ A simple script for allocating projects to groups of students based on entered p
 4. Generate mutations of the best solutions to create a new population.
 5. Repeat from step 2 onwards.
 
-Valid solutions are ones where all groups are allocated a project with no duplicates (i.e. no projects are allocated more than once).
+Valid solutions are ones where all groups are allocated a project with no duplicates (i.e. no projects are allocated more than once). The script prints out the number of iterations, cost of best solution, and time taken for each of the three approaches, followed by the best solution of the genetic algorithm (which generally does produce the best result).
 
 # Important Parameters
 * numprojects = Total number of projects available
